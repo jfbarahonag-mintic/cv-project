@@ -40,6 +40,7 @@ body {
     display: inherit;
     height: 100%;
     align-items: center;
+    margin-left: 20px;
 }
 
 .header-personInfo__info {
@@ -48,6 +49,10 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 1rem;
+}
+
+.header-personInfo__photo {
+    display: flex;
 }
 
 .header-personInfo__photo > img {

@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    width: 100vw;
+    width: 100%;
     height: 20vh;
     background-color: #434f5f;
     color: #f4f5f7;
@@ -20,19 +20,11 @@ body {
 }
 
 .main {
-    padding: 1rem;
-    width: 100vw;
-    height: 65vh;
+    padding: 2rem 3.5rem;
+    width: 100%;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-}
-
-.footer {
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .header-photo {
@@ -60,7 +52,7 @@ body {
 }
 
 .header-personInfo__info-personal {
-
+    text-align: end;
 }
 
 .header-personInfo__info-contact {
@@ -79,9 +71,11 @@ body {
 }
 
 .main-summary {
+    text-align: justify;
 }
 
 .main-info {
+    text-align: justify;
     width: 100%;
     display: flex;
     
@@ -108,6 +102,12 @@ body {
     width: 25%;
 }
 
+.main-info__skills-new {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .main-info__skills-list {
     list-style: none;
 }
@@ -116,6 +116,10 @@ body {
     padding-bottom: 10px;
     display: flex;
     flex-direction: column;
+}
+
+.main-info__skills-item:first-of-type {
+    margin-top: 0.5rem;
 }
 
 /* bar progress config */

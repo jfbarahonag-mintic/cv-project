@@ -71,10 +71,18 @@ body {
     font-size: medium;
 }
 
+.header-social {
+    height: 100%;
+}
+
 .header-social > ul {
     padding: 0 10px;
     list-style-type: none;
     margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
 }
 
 .header-social > ul > li > a {
